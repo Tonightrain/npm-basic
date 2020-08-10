@@ -1,9 +1,7 @@
-import _ from 'romanize';
+import romanize from 'romanize';
 
 const transform = (number) => {
-    if(number ===10){
-        return 'X';
-    }
+    return romanize(number); 
 };
 
 export {
